@@ -66,7 +66,7 @@ elif page == "Model Configuration":
         st.write(f"n_estimators: {param1_value}")
         st.write(f"max_depth: {param2_value}")
         st.write(f"max_features: {param3_value}")
-        st.write(f"criterion: {param3_value}")
+        st.write(f"criterion: {param4_value}")
       
         st.markdown("## Data Visualization")
         
