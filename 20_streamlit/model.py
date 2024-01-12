@@ -4,7 +4,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import f1_score
 
 def get_f1_score(param1_value, param2_value, param3_value, param4_value):
-    df = pd.read_csv('../data/heart.csv')
+    df = pd.read_csv('data/heart.csv')
 
     X = df.drop('target', axis=1)
     y = df['target']

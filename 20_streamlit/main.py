@@ -7,7 +7,7 @@ from model import get_f1_score
 from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
 import shap
 from streamlit_shap import st_shap
-df = pd.read_csv('../data/heart.csv')
+df = pd.read_csv('data/heart.csv')
 
 page = st.sidebar.selectbox("Choose a page", ["Home", "Model Configuration"])
 st.set_option('deprecation.showPyplotGlobalUse', False)
